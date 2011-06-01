@@ -21,6 +21,12 @@ class Home extends CI_Controller {
 	{
 		$this->load->helper('url');
         $data['base_url'] = base_url();
+		
+		//Grab remaining number of gonepons
+		
+		$number = 124;
+		
+		$data['number_left'] = $number;
 		$this->load->view('home', $data);
 	}
 }

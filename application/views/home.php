@@ -1,7 +1,7 @@
 <html><head>
 
 
-<title>GonePon - The Limited Coupon | Up to 99% Discounts in Central London</title>
+<title>Gonepon - The Limited Coupon | Up to 99% Discounts in Central London</title>
 <meta name="description" content="Job Search by Indeed. one search. all uk jobs. Search millions of jobs from thousands of job boards, newspapers, classifieds and company websites on indeed.co.uk">
 <meta name="keywords" content="job search, Indeed, jobs, search engine for jobs, job search engine, job listings, search jobs, career, employment, work, find jobs, rss jobs feed xml british">
 
@@ -54,7 +54,18 @@ a:active { color:#f00 }
 #jobsearch .label {font-size:12px; line-height:1.2;padding-top:0;color:#aaa;font-weight:normal;white-space:nowrap;padding-right:1.5em}
 #jobsearch .sl { font-size: 11px; color: #77c; white-space: nowrap;  }
 
+#gonepon_link {
+color: #555;
+}
 
+#gonepon_link:hover {
+color: #111;
+}
+
+#numbe {
+color: #f60;
+font-weight: bold;
+}
 
 </style>
 
@@ -155,7 +166,7 @@ a:active { color:#f00 }
 </tr>
 
 <tr valign="baseline">
-<td class="label">title, keywords or item name</td>
+<td class="label">business name, keywords or item name</td>
 <td class="label">city or postcode</td>
 <td style="padding-top:0"><a class="sl" href="/">Advanced Search</a></td>
 </tr>
@@ -164,13 +175,11 @@ a:active { color:#f00 }
 <br>
 <div style="text-align:center;margin:1.25em 0 0.4em">
 
-125  <a href="/">gonepons</a> left in Central London<br>
-
+<?php echo "<span id='numbe'>".$number_left."</span>"; ?> <a style="text-decoration:none;" class='sl' id='gonepon_link' href="/">gonepons</a> left in Central London<br>
 <p>
-Up to 99% off restaurants, spas and all other types of experiences in Central London!
-</p>
+gonepons are special coupons that allow you up to 99% off restaurants, spas and many other local places</p>
 <p>
-But there are only a limited number of coupons posted per day (about 35 per location).
+You can get these deals because there are VERY FEW of them (about 35 per location).
 </p>
 <p>
 So you need to be quick! Search gonepon to get yours now!
@@ -184,16 +193,18 @@ So you need to be quick! Search gonepon to get yours now!
     
     
     
-    <a href="/">Browse Gonepons</a> - 
+    <a href="/">Browse gonepons</a> - 
     
      <a href=""><nobr>About</nobr></a> -
     
     <a href="">Get your business on gonepon!</a> -
+	
+	<a href="">Contact Us</a> -
     
     </span>
     
     
-    <div style="margin-top:1em"><font size="-2">©2011 Gonepon</font></div>
+    <div style="margin-top:1em"><font size="-2">&copy; 2011 gonepon</font></div>
 </div>
 <br>
 
