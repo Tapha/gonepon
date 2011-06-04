@@ -29,6 +29,46 @@ class Home extends CI_Controller {
 		$data['number_left'] = $number;
 		$this->load->view('home', $data);
 	}
+
+	public function search()
+	{   
+	    $this->load->helper('url');
+        $data['base_url'] = base_url();
+		//Do the search.
+        $this->load->view('search', $data);
+	}
+
+	public function browse()
+	{   
+	    $this->load->helper('url');
+        $data['base_url'] = base_url();
+		//grab the data.
+        $this->load->view('browse', $data);
+	}
+
+	public function about()
+	{   
+	    $this->load->helper('url');
+        $data['base_url'] = base_url();
+		//
+        $this->load->view('about', $data);
+	}
+
+	public function get()
+	{   
+	    $this->load->helper('url');
+        $data['base_url'] = base_url();
+		//
+        $this->load->view('get', $data);
+	}
+
+	public function shout()
+	{   
+	    $this->load->helper('url');
+        $data['base_url'] = base_url();
+		//
+        $this->load->view('shout', $data);
+	}
 }
 
 /* End of file welcome.php */

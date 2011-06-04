@@ -2,14 +2,14 @@
 
 
 <title>Gonepon - The Limited Coupon | Up to 99% Discounts in Central London</title>
-<meta name="description" content="Job Search by Indeed. one search. all uk jobs. Search millions of jobs from thousands of job boards, newspapers, classifieds and company websites on indeed.co.uk">
-<meta name="keywords" content="job search, Indeed, jobs, search engine for jobs, job search engine, job listings, search jobs, career, employment, work, find jobs, rss jobs feed xml british">
+<meta name="description" content="">
+<meta name="keywords" content="">
 
 
 <link rel="canonical" href="/">
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="alternate" media="handheld" href="/m/">
-<link rel="search" type="application/opensearchdescription+xml" title="Indeed Job Search" href="/indeedsearchdescription.xml">
+<link rel="search" type="application/opensearchdescription+xml" title="" href="/">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <style type="text/css">
 body { background:#fff; margin:2px 5px }
@@ -71,7 +71,19 @@ font-weight: bold;
 
 
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23765337-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body>
 
@@ -117,19 +129,19 @@ font-weight: bold;
 
 
 
-<a href="" rel="nofollow">sign up</a> -
+<a href="<?php echo $base_url.'home/get';?>" rel="nofollow">sign up</a> -
 
 
 
 
 
-<a href="" rel="nofollow">sign in</a>
+<a href="<?php echo $base_url.'home/get';?>" rel="nofollow">sign in</a>
 
 
 
 
  -
-<a href="">FAQ</a>
+<a href="<?php echo $base_url.'home/get';?>">FAQ</a>
 </div>
 </div>
 </td>
@@ -148,7 +160,7 @@ font-weight: bold;
 </td></tr>
 <tr>
 <td>
-<form action="/jobs" method="get" name="jobsearch" id="jobsearch" onsubmit="formptk('form','where_ac');">
+<form action="<?php echo $base_url.'home/search'; ?>" ""method="get" name="gonepons" id="find_gonepon" onsubmit="formptk('form','where_ac');">
 <table cellspacing="0" cellpadding="3" width="100%" align="center">
 <tbody><tr>
 <td class="npb"><label for="what">what</label></td>
@@ -193,13 +205,13 @@ So you need to be quick! Search gonepon to get yours now!
     
     
     
-    <a href="/">Browse gonepons</a> - 
+    <a href="<?php echo $base_url.'home/browse';?>">Browse gonepons</a> - 
     
-     <a href=""><nobr>About</nobr></a> -
+     <a href="<?php echo $base_url.'home/about';?>"><nobr>About</nobr></a> -
     
-    <a href="">Get your business on gonepon!</a> -
+    <a href="<?php echo $base_url.'home/get';?>">Get your business on gonepon!</a> -
 	
-	<a href="">Contact Us</a> -
+	<a href="<?php echo $base_url.'home/shout';?>">Contact Us</a>
     
     </span>
     
